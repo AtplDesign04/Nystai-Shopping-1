@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c861b468.css",
+    "main.js": "/static/js/main.4bd708e1.js",
+    "static/media/Login.png": "/static/media/Login.833237b739f1ff053f71.png",
+    "static/media/Verification-success.png": "/static/media/Verification-success.9754d53181cb5834434c.png",
+    "static/media/logo.png": "/static/media/logo.8e1479aee6cf7e54e0cc.png",
+    "static/media/Kabob Regular.ttf": "/static/media/Kabob Regular.d53cb0d3689845177035.ttf",
+    "static/media/Register-img.avif": "/static/media/Register-img.b7722ca185793d37c128.avif",
+    "static/media/empty-cart.svg": "/static/media/empty-cart.a23c6c85e5d7541cf63e926cee83a4fe.svg",
+    "index.html": "/index.html",
+    "main.c861b468.css.map": "/static/css/main.c861b468.css.map",
+    "main.4bd708e1.js.map": "/static/js/main.4bd708e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c861b468.css",
+    "static/js/main.4bd708e1.js"
+  ]
+}
