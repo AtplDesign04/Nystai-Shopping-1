@@ -1,0 +1,267 @@
+
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  background-color: #f5f5f5;
+  margin-top: 100px;
+  padding: 10px 
+}
+.txt-ara{
+  color: #1B6763;
+}
+.txt-ara h4{
+ justify-content: center;
+}
+
+.txt-ara ul li {
+  margin: 5px;
+}
+
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .footline p {
+    margin-left: 18px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+  .txt {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+/* header-start  */
+.container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  margin: 0 150px;
+}
+
+@media (max-width: 789px) {
+  .navbar {
+    margin: 0 15px;
+    align-items: start;
+  }
+}
+@media (max-width: 789px) {
+  .main-logo {
+    display: none;
+  }
+}
+.main-logo-mobile{
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 790px) {
+  .main-logo-mobile {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: nowrap; /* Prevent wrapping */
+  }
+  
+  .navbar .col-lg-3,
+  .navbar .col-md-4,
+  .navbar .col-sm-5,
+  .navbar .col-6 {
+    flex: 1 1 auto; /* Allow flex items to grow and shrink */
+    padding: 0; /* Remove padding */
+  }
+
+  .navbar .col-lg-6,
+  .navbar .col-md-5,
+  .navbar .col-sm-7,
+  .navbar .col-6 {
+    flex: 2 1 auto; /* Allow more space for the search bar */
+    padding: 0; /* Remove padding */
+  }
+
+  .navbar .col-lg-3,
+  .navbar .col-md-3,
+  .navbar .col-sm-12 {
+    flex: 1 1 auto; /* Allow flex items to grow and shrink */
+    padding: 0; /* Remove padding */
+  }
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-left: 5px;
+}
+
+.navbar .col-12.col-md-3,
+.navbar .col-12.col-md-6,
+.navbar .col-12.col-md-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .col-12.col-md-6 {
+  flex: 1;
+}
+
+.navbar .col-12.col-md-3.text-center {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.input-group {
+  width: 100%;
+  border: #1B6763;
+  padding: 2%;
+}
+
+.dropdown {
+  font-size: 1.2rem;
+}
+.dropdown-toggle::after {
+  display: none; /* Hide the dropdown toggle icon */
+}
+.cate-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+@media (max-width: 786px) {
+  .cart-text{
+    font-size: 15px;
+  }
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background: #1b6763;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 10px;
+}
+
+/* search box start */
+.search-container {
+  position: relative;
+}
+
+#search_field, #mobile_search_field {
+  font-family: FontAwesome;
+  text-align: center; 
+  border-radius: 25px;
+}
+
+#search_field:focus, #mobile_search_field:focus {
+  text-align: left; /* Align text to the left when focused */
+}
+
+.search-icon-container {
+  display: none;
+  cursor: pointer;
+ 
+}
+
+.input-group-append {
+  display: none; /* Hide the search button */
+}
+
+.search-icon {
+  font-size: 23px;
+  padding: 10px;
+  color: #000; /* Adjust the color as needed */
+  float: right;
+  margin-left: 180px;
+}
+@media (max-width: 786px) {
+  .search-icon {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 520px) {
+  .search-icon {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 400px) {
+  .search-icon {
+    margin-left: 95px;
+  }
+}
+@media (max-width: 389px) {
+  .search-icon {
+    margin-left: 85px;
+  }
+}
+@media (max-width: 355px) {
+  .search-icon {
+    margin-left: 65px;
+  }
+}
+@media (max-width: 320px) {
+  .search-icon {
+    margin-left: 45px;
+  }
+}
+/* @media (max-width: 350px) {
+  .search-icon {
+    margin-left: 20px;
+  }
+} */
+@media (max-width: 768px) {
+  #search_field {
+    display: none; /* Hide the desktop search field */
+  }
+
+  .search-icon-container {
+    display: block;
+  }
+
+  .mobile-search {
+    display: block;
+    width: 95%;
+    margin-top: 10px;
+    height: 25px;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-search {
+    display: none;
+  }
+}
+/* search box end */
